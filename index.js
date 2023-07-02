@@ -23,7 +23,7 @@ client.on("ready", () => {
   console.log("Whatsapp Bot Aktif!");
 });
 
-app.post("/check", async (req, res) => {
+app.get("/api", async (req, res) => {
     const { number } = req.params;
     if (!number || number.length < 10 || number.length > 13 || isNaN(number)) {
         return res.json({
@@ -46,6 +46,14 @@ app.post("/check", async (req, res) => {
           profilePic: pic,
       },
     });
+});
+
+app.use(function (req, res, next) {
+  res.status(404).json({
+    status: "error",
+    message: "404 Not Found",
+    github: "fastuptime",
+  });
 });
 
 client.initialize();
