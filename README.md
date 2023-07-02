@@ -1,11 +1,10 @@
-# Fast_Whatsapp_Query
-Fast Whatsapp Query
+# Fast_Whatsapp_Query_API
+Fast Whatsapp Query API
 
 ## Resimler
 
-![image](https://github.com/fastuptime/Fast_Whatsapp_Query/assets/63351166/7a8de686-1da4-4f7b-bbd9-65cf9d031522)
-![image](https://github.com/fastuptime/Fast_Whatsapp_Query/assets/63351166/dd0ee390-9583-4705-9bbe-37cea4bd3bbc)
-
+![image](https://github.com/fastuptime/Fast_Whatsapp_Query_API/assets/63351166/03ddf8a9-e5fc-4f79-9a32-632c153ba357)
+![image](https://github.com/fastuptime/Fast_Whatsapp_Query_API/assets/63351166/f1985137-70c5-4c9f-994e-b5598c066c29)
 
 
 ## Kurulum
@@ -16,7 +15,7 @@ Fast Whatsapp Query
 - `npm install` Yazarak modülleri kurun.
 - `node .` Yazarak'da siteyi başlatın.
 - Kurulum tamamlandıktan sonra whatsapp üzerinden "Bağlı Cihazlara" Tıklayarak Terminal Ekranına Çıkan QR kodu okutun ve "Whatsapp Bot Aktif!" mesajını terminalde görünceye kadar bekleyin.
-- localhost:80 adresinden sorgu yapabilirsiniz
+- http://localhost/api?number=905300000000 adresinden sorgu yapabilirsiniz
   
 ## Tech Stack
 
