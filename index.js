@@ -24,7 +24,7 @@ client.on("ready", () => {
 });
 
 app.get("/api", async (req, res) => {
-    const { number } = req.params;
+    const { number } = req.query;
     if (!number || number.length < 10 || number.length > 13 || isNaN(number)) {
         return res.json({
             status: "error",
